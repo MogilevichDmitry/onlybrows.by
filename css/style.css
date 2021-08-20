@@ -21,17 +21,17 @@ blockquote {
 }
 
 h1 {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     line-height: 6.5rem;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     text-transform: uppercase;
     padding-top: 12px;
 }
 
 h2 {
   font-size: 30px;
-  letter-spacing: 6px;
-  padding-bottom: 10px;
+  letter-spacing: 4px;
+  padding-bottom: 14px;
   text-transform: uppercase;
 }
 
@@ -915,6 +915,10 @@ footer .copyright-text {
 
 @media (max-width: 767px) {
 
+  h2 {
+    padding-bottom: 6px;
+  }
+
   .navbar-default .navbar-brand {
     line-height: 15px;
   }
@@ -938,6 +942,15 @@ footer .copyright-text {
   
   .instagram-row {
     justify-content: center;
+    height: 24px;
+  }
+
+  .direct-custom {
+    margin: 40px 0;
+  }
+
+  footer {
+    padding: 4rem 0;
   }
 }
 
