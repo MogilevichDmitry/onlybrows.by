@@ -152,12 +152,14 @@ a {
     margin: 0 !important;
 }
 
-.navbar-default .navbar-brand {
-  color: #505050;
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 50px;
-  margin: 0;
+.logo {
+  display: inline-block;
+  text-indent: -9999px;
+  height: 92px;
+  width: 100px;
+  background: url('../images/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .navbar-default .navbar-nav li a {
@@ -918,8 +920,10 @@ footer .copyright-text {
     padding-bottom: 6px;
   }
 
-  .navbar-default .navbar-brand {
-    line-height: 15px;
+  .logo {
+    height: 49px;
+    width: 60px;
+    margin-left: 15px;
   }
 
   .navbar-default .navbar-nav li a {
